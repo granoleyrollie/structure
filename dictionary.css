@@ -10,16 +10,12 @@
     font-family: Helveticaa;
     src:url(font/Helvetica.ttf);
 }
-@font-face {
-    font-family: Vengeance;
-    src:url(font/Vengeance.otf);
-}
 
 a:link, a:visited {
     color: black;
     background-color: transparent;
     text-decoration: none;
-    font-family: Helveticaa;
+    font-family: SonoRegular;
 }
 a:hover, a:active {
     color: white;
@@ -39,7 +35,7 @@ div {
     background-color: transparent;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: Helveticaa;
+    font-family: SonoRegular;
     font-size: 18px;
 }
 
