@@ -1,0 +1,34 @@
+@font-face {
+    font-family: SonoRegular;
+    src:url(font/SonoRegular.ttf);
+}
+@font-face {
+    font-family: SonoMedium;
+    src:url(font/SonoMedium.ttf);
+}
+
+div {
+    overflow-x: scroll;
+    letter-spacing: 0.035cm;
+}
+div section {
+    display: block;
+    text-align: center;
+} 
+div {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: SonoRegular;
+    font-size: 18px;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently */
+}

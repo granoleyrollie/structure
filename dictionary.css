@@ -1,0 +1,53 @@
+@font-face {
+    font-family: SonoRegular;
+    src:url(font/SonoRegular.ttf);
+}
+@font-face {
+    font-family: SonoMedium;
+    src:url(font/SonoMedium.ttf);
+}
+@font-face {
+    font-family: Helveticaa;
+    src:url(font/Helvetica.ttf);
+}
+@font-face {
+    font-family: Vengeance;
+    src:url(font/Vengeance.otf);
+}
+
+a:link, a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: Helveticaa;
+}
+a:hover, a:active {
+    color: white;
+    background-color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+div {
+    overflow-x: scroll;
+    letter-spacing: 0.035cm;
+}
+div {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Helveticaa;
+    font-size: 18px;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently */
+}
